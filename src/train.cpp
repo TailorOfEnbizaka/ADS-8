@@ -37,7 +37,6 @@ int Train::getLength() {
     k1++;
     countOp++;
   }
- 
   nov = nov->next;
   nov->light = false;
   k1++;
