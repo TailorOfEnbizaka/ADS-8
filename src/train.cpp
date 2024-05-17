@@ -30,7 +30,7 @@ int Train::getLength() {
   k1 = 0;
   k2 = 0;
   if (!first->light) {
-    first->light=true;
+    first->light = true;
   }
   while (!nov->next->light) {
     nov = nov->next;
